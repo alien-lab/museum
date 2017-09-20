@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="index.css">
 
     <style>
+        body{
+            overflow: auto;
+        }
         .container1440{
             max-width:1440px;
             min-width:1440px;
@@ -41,10 +44,15 @@
             min-width:1440px;
             width:1440px;
             margin:0 auto;
+            background-image:url("image/nav/BG.png");
+            display:none;
         }
 
         #navtop{
-            height:250px;
+            width:100%;
+        }
+        #navbottom{
+            height:36px;
             width:100%;
         }
 
@@ -52,18 +60,34 @@
             list-style: none;
             width:1240px;
             padding:0;
-            margin:0 auto;
+            margin:50px auto;
+            clear:both;
         }
 
         #navlist ul li{
             float:left;
             width:25%;
-            background-color:#000;
-            height:470px;
+            text-align:center;
+            cursor:pointer;
+
+        }
+        .listitem{
+            clear:both;
+        }
+        .listicon{
+            margin-top:50px;
+        }
+        #backbtn{
+            position:absolute;
+            left:10%;
+            top:0;
+            cursor:pointer;
+            display:none;
         }
     </style>
     <link rel="stylesheet" href="../css/main.css">
     <script src="../jquery/jquery.js"></script>
+
 </head>
 <body>
 <div class="container1440">
@@ -88,43 +112,82 @@
     </div>
 </div>
 <div class="navpage">
+    <div id="backbtn">
+        <img src="image/nav/back.png"/>
+    </div>
     <div id="navtop">
-
+        <img src="image/nav/title.png" style="width:100%;" />
     </div>
     <div id="navlist">
         <ul>
             <li>
                 <div class="listitem">
-                    <div class="listword"></div>
-                    <div class="listicon"></div>
+                    <div class="listword">
+                        <img src="image/nav/no1.png" />
+                    </div>
+                    <div class="listicon">
+                        <img src="image/nav/1.png" />
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="listitem">
-                    <div class="listword"></div>
-                    <div class="listicon"></div>
+                    <div class="listword">
+                        <img src="image/nav/no2.png" />
+                    </div>
+                    <div class="listicon">
+                        <img src="image/nav/2.png" />
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="listitem">
-                    <div class="listword"></div>
-                    <div class="listicon"></div>
+                    <div class="listword">
+                        <img src="image/nav/no3.png"  />
+                    </div>
+                    <div class="listicon">
+                        <img src="image/nav/3.png" />
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="listitem">
-                    <div class="listword"></div>
-                    <div class="listicon"></div>
+                    <div class="listword">
+                        <img src="image/nav/no4.png"  />
+                    </div>
+                    <div class="listicon">
+                        <img src="image/nav/4.png" />
+                    </div>
                 </div>
             </li>
         </ul>
+        <div style="clear:both;"></div>
+
     </div>
+    <div id="navbottom"></div>
 </div>
 </body>
 <script>
     $(document).ready(function(){
         $("#enterbtn").click(function(){
-            window.location.href="../navigation/navigation.html";
+            $(".container1440").slideUp(800);
+            $(".navpage").fadeIn(1000,function(){
+                $("#backbtn").show();
+            });
+        });
+        $("#backbtn").click(function(){
+            $("#backbtn").hide();
+            $(".navpage").fadeOut(800);
+            $(".container1440").slideDown(1000);
+
+        });
+
+        $("#navlist li").hover(function(){
+            var icon=$(this).find(".listicon");
+            icon.css("transform","rotateY(180deg)")
+        },function(){
+            var icon=$(this).find(".listicon");
+            icon.css("transform","rotateY(0)")
         })
     });
 </script>
