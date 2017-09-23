@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="pandectApp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../angular-bootstrap/ui-bootstrap-csp.css"/>
+    <link rel="stylesheet" href="../css/swiper.css"/>
+    <link rel="stylesheet" href="../css/swiper.min.css"/>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/swiper.js"></script>
+    <script type="text/javascript" src="../js/swiper.min.js"></script>
+    <script type="text/javascript" src="../angular/angular.js"></script>
+    <script type="text/javascript" src="pandectCtrl.js"></script>
+    <script type="text/javascript" src="../angular-bootstrap/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="../angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <title>纸之源流</title>
+</head>
+<style>
+
+    body{background: #ffffff;}
+    /*标题css*/
+    .firstTop{  background: url("img/title.png") no-repeat ;  z-index: -1;  }
+    .firstTop p{text-align: center;margin-top:200px;}
+
+    /*前言*/
+    .firstPreface{
+        background: url("img/firstPreface.png") no-repeat center;
+    }
+    .firstPrefaceContent{
+        margin-top: 140px;
+        margin-left: 128px;
+        width: 1102px;
+        margin-bottom: 198px;
+    }
+    .firstPrefaceContent p{
+        font-size: 186%;
+        line-height: 1.7;
+    }
+    /*单元*/
+    .content{
+        background: url("img/unitstyle.png") no-repeat center;
+        background-position-y: 74px;
+    }
+    .unitContent p {text-align: center;font-size: 200%;}
+    .contentOverview {
+        margin-top: 35px;
+        margin-left: 84px;
+        width: 1238.5px;
+        padding: 40px 70px;
+        border-left:6px solid #e0dad3;
+        border-right:6px solid #e0dad3;
+    }
+    .contentOverview p{
+        font-size: 170%;
+        line-height: 1.8;
+        text-align: left;
+    }
+    .contentDetail{
+        width: 1271px;
+        margin-left: 60px;
+        padding: 10px;
+        margin-top:150px;
+    }
+    .contentDetail .contentdesc{
+        padding: 10px;
+        position: relative;
+    }
+
+   /*轮番样式*/
+    .swiper-container {
+        width: 500px;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        border:1px solid red;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+</style>
+<body ng-controller="pandectCtrl">
+
+
+    <div class="container" style="border: 1px solid red;width: 1440px;" ng-repeat="paper in paperList track by $index">
+        <div class="row">
+            <!--标题-->
+            <div class="col-lg-12 col-md-12 firstTop">
+                <a href="#" >
+                    <img src="img/back.png" />
+                </a>
+                <p>
+                    <img ng-src="{{paper.pageImage}}"/>
+                </p>
+            </div>
+            <!--前言-->
+            <div class="col-lg-12 col-md-12 firstPreface">
+                <div class="firstPrefaceContent">
+                    <p>{{paper.pageMemo}}</p>
+                </div>
+            </div>
+            <!--单元-->
+            <div class="col-lg-12 col-md-12 content" ng-repeat="unit in paper.units ">
+                <!--单元标题-->
+                <div class="unitContent">
+                    <p style="margin-top: 36px;">
+                        <label>{{unit.unitName}}</label>
+                    </p>
+                    <p style="margin-top:24px;">
+                        <label>{{unit.unitTitle}}</label>
+                    </p>
+                    <div class="contentOverview">
+                        <p>{{unit.unitMemo}}</p>
+                    </div>
+                </div>
+                <!--单元具体内容-->
+                <div style="margin-top: 200px;">
+                    <div ng-repeat="content in unit.contents" style="border: 1px solid #ffffff;background:url('img/yun2.png') no-repeat;background-position-y:40px;">
+                        <div class="contentDetail" style="border: 4px solid #71593a;">
+                            <div class="contentdesc" style="border:2px solid #71593a;">
+                                <div class="media">
+                                    <div class="media-left" style="border: 1px solid red;">
+                                        <img class="media-object" src="img/1_1_1.png" >
+                                        <!--<p style="text-align: center;">{{content.contentName}}</p>-->
+                                    </div>
+                                    <div class="media-body" style="border: 1px solid red;">
+                                        <p style="text-indent: 2em; font-size: 170%;line-height: 1.8;margin-top: 25px;">{{content.contentMemo}}</p>
+                                    </div>
+                                </div>
+                                <img src="img/separates.png" style="width: 100%;"/>
+                                <div style="height:500px;border: 1px solid red;">
+
+                                    <div class="swiper-container" style="border:2px solid black;">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide" ng-repeat="s in slides">
+                                                <img src="{{s.image}}"/>
+                                            </div>
+
+                                        </div>
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination" style="border:2px solid teal;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30,
+        observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        observeParents:true //修改swiper的父元素时，自动初始化swiper
+    });
+</script>
+</html>

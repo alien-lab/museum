@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        .container1440{
+            max-width:1440px;
+            min-width:1440px;
+            width:1440px;
+            margin:0 auto;
+            padding:100px;
+            background-color:#916F61;
+        }
+        .playbtn{
+            position: absolute;
+            left: 41.6%;
+            top: 26.6%;
+            background-color: transparent;
+            width: 12%;
+            height: 7.5%;
+            cursor: pointer;
+        }
+
+        .enterbtn{
+            position: absolute;
+            left: 79.6%;
+            top: 73.6%;
+            background-color: transparent;
+            width: 8%;
+            height: 14.5%;
+            cursor: pointer;
+        }
+
+        .navpage{
+            max-width:1440px;
+            min-width:1440px;
+            width:1440px;
+            margin:0 auto;
+        }
+
+        #navtop{
+            height:250px;
+            width:100%;
+        }
+
+        #navlist ul{
+            list-style: none;
+            width:1240px;
+            padding:0;
+            margin:0 auto;
+        }
+
+        #navlist ul li{
+            float:left;
+            width:25%;
+            background-color:#000;
+            height:470px;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../jquery/jquery.js"></script>
+</head>
+<body>
+<div class="container1440">
+    <div id="page1">
+        <img src="image/indexBgp.png" width="100%"/>
+        <div class="playbtn" id="playbtn">
+
+        </div>
+        <div class="enterbtn" id="enterbtn">
+
+        </div>
+        <div>
+            <!--<video width="320" height="240" controls autoplay>-->
+            <!--<source src="movie.ogg" type="video/ogg">-->
+            <!--<source src="movie.swf" type="video/mp4">-->
+            <!--<source src="movie.swf" type="video/webm">-->
+            <!--<object data="movie.swf" width="320" height="240">-->
+            <!--<embed width="320" height="240" src="movie.swf">-->
+            <!--</object>-->
+            <!--</video>-->
+        </div>
+    </div>
+</div>
+<div class="navpage">
+    <div id="navtop">
+
+    </div>
+    <div id="navlist">
+        <ul>
+            <li>
+                <div class="listitem">
+                    <div class="listword"></div>
+                    <div class="listicon"></div>
+                </div>
+            </li>
+            <li>
+                <div class="listitem">
+                    <div class="listword"></div>
+                    <div class="listicon"></div>
+                </div>
+            </li>
+            <li>
+                <div class="listitem">
+                    <div class="listword"></div>
+                    <div class="listicon"></div>
+                </div>
+            </li>
+            <li>
+                <div class="listitem">
+                    <div class="listword"></div>
+                    <div class="listicon"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#enterbtn").click(function(){
+            window.location.href="../navigation/navigation.html";
+        })
+    });
+</script>
+</html>
