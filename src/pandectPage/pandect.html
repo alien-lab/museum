@@ -47,8 +47,8 @@
         margin-left: 84px;
         width: 1238.5px;
         padding: 40px 70px;
-        border-left:6px solid #e0dad3;
-        border-right:6px solid #e0dad3;
+        border-left:6px solid #4d2c00;
+        border-right:6px solid #4d2c00;
     }
     .contentOverview p{
         font-size: 170%;
@@ -68,16 +68,15 @@
 
    /*轮番样式*/
     .swiper-container {
-        width: 500px;
-        height: 300px;
-        margin: 20px auto;
+        width: 90%;
+    }
+    .swiper-wrapper{height: 310px;}
+    .swiper-pagination{
     }
     .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: #fff;
-
-        border:1px solid red;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -92,10 +91,18 @@
         -webkit-align-items: center;
         align-items: center;
     }
+    .swiper-pagination{
+        height: 80px;
+        padding-top: 70px;
+    }
+    .next{
+        margin-top: 142px;
+        margin-right: 13px;
+        width: 42px;
+        height: 46px;
+    }
 </style>
 <body ng-controller="pandectCtrl">
-
-
     <div class="container" style="border: 1px solid red;width: 1440px;" ng-repeat="paper in paperList track by $index">
         <div class="row">
             <!--标题-->
@@ -128,33 +135,37 @@
                     </div>
                 </div>
                 <!--单元具体内容-->
-                <div style="margin-top: 200px;">
+                <div style="margin-top: 200px;" style="position: relative;">
                     <div ng-repeat="content in unit.contents" style="border: 1px solid #ffffff;background:url('img/yun2.png') no-repeat;background-position-y:40px;">
                         <div class="contentDetail" style="border: 4px solid #71593a;">
                             <div class="contentdesc" style="border:2px solid #71593a;">
+                                <!--单元具体内容介绍-->
                                 <div class="media">
-                                    <div class="media-left" style="border: 1px solid red;">
+                                    <div class="media-left" style="padding: 0;">
                                         <img class="media-object" src="img/1_1_1.png" >
                                         <!--<p style="text-align: center;">{{content.contentName}}</p>-->
                                     </div>
-                                    <div class="media-body" style="border: 1px solid red;">
+                                    <div class="media-body">
                                         <p style="text-indent: 2em; font-size: 170%;line-height: 1.8;margin-top: 25px;">{{content.contentMemo}}</p>
                                     </div>
                                 </div>
                                 <img src="img/separates.png" style="width: 100%;"/>
-                                <div style="height:500px;border: 1px solid red;">
-
-                                    <div class="swiper-container" style="border:2px solid black;">
+                                <!--swiper-->
+                                <div>
+                                    <div class="swiper-container">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide" ng-repeat="s in slides">
                                                 <img src="{{s.image}}"/>
                                             </div>
-
                                         </div>
                                         <!-- Add Pagination -->
-                                        <div class="swiper-pagination" style="border:2px solid teal;"></div>
+                                        <div class="swiper-pagination" ></div>
                                     </div>
-
+                                    <!-- Add Arrows -->
+                                    <img class="swiper-button-next next" src="img/next.png"/>
+                                    <img src="img/zu.png" style="position: absolute;margin-top: -283px;margin-left: 316px;"/>
+                                    <img src="img/zu.png" style="position: absolute;margin-top: -283px;margin-left: 597px;"/>
+                                    <img src="img/zu.png" style="position: absolute;margin-top: -283px;margin-left: 878px;"/>
                                 </div>
                             </div>
                         </div>
@@ -164,14 +175,21 @@
         </div>
     </div>
 </body>
+
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 3,
-        paginationClickable: true,
-        spaceBetween: 30,
-        observer:true,//修改swiper自己或子元素时，自动初始化swiper
-        observeParents:true //修改swiper的父元素时，自动初始化swiper
-    });
+    function loadas() {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            initialSlide :0,
+            slidesPerView:4,
+            paginationClickable: true,
+            spaceBetween: 30,
+            nextButton: '.swiper-button-next',
+            observer:true,//修改swiper自己或子元素时，自动初始化swiper
+            observeParents:true //修改swiper的父元素时，自动初始化swiper
+        });
+    }
+    setTimeout(loadas,500);
+
 </script>
 </html>
