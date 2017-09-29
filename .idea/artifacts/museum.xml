@@ -2,7 +2,7 @@
   <artifact type="exploded-war" name="museum">
     <output-path>$PROJECT_DIR$/out/artifacts/museum</output-path>
     <root id="root">
-      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
     </root>
   </artifact>
 </component>

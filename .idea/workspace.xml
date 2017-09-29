@@ -1,15 +1,493 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="museum" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f22fb25c-b8e1-49c0-b78a-758f62021378" name="Default" comment="第一部分静态页面">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/img/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/img/zu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/img/zuBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_1_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/1/1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_3_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_4_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_4_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/2/2_4_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_1_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/02/4/4_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/1/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_3_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_3_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_3_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_6_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_7_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_7_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_1_7_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_2_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_1_4_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_4_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_2_5_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_6_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_6_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_7_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_3_7_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/2/2_4_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_5_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_6_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_7_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_8_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_8_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_8_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_8_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_1_9_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_3_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/2/4/4_2_3_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_3_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_3_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_3_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_6_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_7_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_7_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_1_7_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_1_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_2_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/1/1_2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_1_4_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_4_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_2_5_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_1_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_4_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_6_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_6_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_7_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_3_7_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/2/2_4_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_4_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_5_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_6_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_7_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_8_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_8_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_8_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_8_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_1_9_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_2_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_2_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_2_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_2_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_2_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_3_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_3_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_3_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_3_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/images/4/4/4_2_3_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/angular/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pandectPage/contentInfo.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.github/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.github/SUPPORT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.idea/artifacts/museum.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/.travis/github_deploy_key.enc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/img/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/js/vendor/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/js/vendor/modernizr-3.5.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/site.webmanifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/dist/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/gulpfile.babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/modernizr-config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/musume.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/css/bootstrap-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/image/indexBgp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/image/left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/image/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/image/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/index/movie.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/museum/src/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_1_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_1_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_1_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1_1_7.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/1.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/2.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/1/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/3.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/1/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/4.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/1/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/bStyle.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/bStyle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/back.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/ellips.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/ellips.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/firstCell.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/firstCell.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/firstPreface.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/firstPreface.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/next.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/separates.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/separates.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/title.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/title.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/unitstyle.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/unitstyle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/yun1.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/yun1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/yun2.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/yun2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/zu.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/zu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pandectPage/img/zuBg.png" afterPath="$PROJECT_DIR$/src/pandectPage/images/zuBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/museum.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/museum.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index/index.html" afterPath="$PROJECT_DIR$/src/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pandectPage/data.json" afterPath="$PROJECT_DIR$/src/pandectPage/data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pandectPage/pandect.html" afterPath="$PROJECT_DIR$/src/pandectPage/pandect.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pandectPage/pandectCtrl.js" afterPath="$PROJECT_DIR$/src/pandectPage/pandectCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pandectPage/try.html" afterPath="$PROJECT_DIR$/src/pandectPage/try.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pandectPage/tryCtrl.js" afterPath="$PROJECT_DIR$/src/pandectPage/tryCtrl.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,17 +500,15 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pandect.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pandect.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pandectPage/pandect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+            <state relative-caret-position="271">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,35 +529,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_1_1_4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="contentInfo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pandectPage/contentInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pandectPage/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="191">
+              <caret line="4706" column="35" lean-forward="false" selection-start-line="4706" selection-start-column="35" selection-end-line="4706" selection-end-column="35" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1_1_1_3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pandectCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pandectPage/pandectCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="225">
+              <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -89,43 +570,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_1_1_2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1_1_1_1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="try.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pandectPage/try.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="63" column="78" lean-forward="false" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tryCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pandectPage/tryCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="1057">
+              <caret line="143" column="37" lean-forward="false" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -136,8 +585,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -149,7 +598,13 @@
       <find>contentDetail</find>
       <find>container</find>
       <find>title</find>
+      <find>pageImage</find>
+      <find>/images/1/4.png</find>
+      <find>pandectCtrl</find>
     </findStrings>
+    <replaceStrings>
+      <replace>images/1/4.png</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,10 +619,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/index/pandect.html" />
         <option value="$PROJECT_DIR$/src/pandectPage/tryCtrl.js" />
-        <option value="$PROJECT_DIR$/src/pandectPage/pandectCtrl.js" />
-        <option value="$PROJECT_DIR$/src/pandectPage/data.json" />
         <option value="$PROJECT_DIR$/src/pandectPage/try.html" />
+        <option value="$PROJECT_DIR$/src/angular/angular-router.js" />
+        <option value="$PROJECT_DIR$/src/pandectPage/data.json" />
+        <option value="$PROJECT_DIR$/src/index/index.html" />
         <option value="$PROJECT_DIR$/src/pandectPage/pandect.html" />
+        <option value="$PROJECT_DIR$/src/pandectPage/pandectCtrl.js" />
+        <option value="$PROJECT_DIR$/src/pandectPage/contentInfo.html" />
       </list>
     </option>
   </component>
@@ -194,11 +652,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -215,166 +671,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pandectPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pandectPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swiper.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swiper.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="museum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pandectPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="museum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="museum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pandectPage" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jhipsterDemo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/jhipsterDemo" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="E:\GitHub\museum\museum\node_modules\mocha" />
     <property name="nodejs_interpreter_path" value="D:/nodeJS/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -383,36 +739,174 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\museum\museum\src\pandectPage\img" />
-      <recent name="E:\GitHub\museum\museum\src\css" />
-      <recent name="E:\GitHub\museum\museum\src\js" />
-      <recent name="E:\GitHub\museum\museum\src" />
-      <recent name="E:\GitHub\museum\museum\src\angular" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\museum\museum\src\pandectPage" />
       <recent name="E:\GitHub\museum\museum\src\navigation" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pandectPage/images" />
+      <recent name="$PROJECT_DIR$/src/angular" />
+      <recent name="E:\GitHub\museum\museum\src\pandectPage\img" />
+      <recent name="E:\GitHub\museum\museum\src\css" />
+      <recent name="E:\GitHub\museum\museum\src\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.museum">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -467,29 +961,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -573,55 +1044,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -636,36 +1058,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -726,55 +1118,21 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -803,9 +1161,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="museum" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="museum" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="museum">
           <settings>
@@ -876,9 +1233,6 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.museum" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -902,52 +1256,54 @@
       <workItem from="1506129377181" duration="12965000" />
       <workItem from="1506237097297" duration="8034000" />
       <workItem from="1506263271314" duration="978000" />
+      <workItem from="1506509390128" duration="5876000" />
+      <workItem from="1506577099858" duration="672000" />
+      <workItem from="1506594401824" duration="16285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88259000" />
+    <option name="totallyTimeSpent" value="111092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18379685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20886815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35436893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -983,58 +1339,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/navigation.html" />
-    <entry file="file://$PROJECT_DIR$/src/tile.png" />
-    <entry file="file://$PROJECT_DIR$/src/tile-wide.png" />
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/plugins.js" />
-    <entry file="file://$PROJECT_DIR$/src/navigation/navigation.html" />
-    <entry file="file://$PROJECT_DIR$/src/tile.png" />
-    <entry file="file://$PROJECT_DIR$/src/tile-wide.png" />
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/plugins.js" />
-    <entry file="file://$PROJECT_DIR$/src/tile.png" />
-    <entry file="file://$PROJECT_DIR$/src/tile-wide.png" />
-    <entry file="file://$PROJECT_DIR$/src/navigation/navigation.html" />
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/logo.png" />
     <entry file="file://$PROJECT_DIR$/src/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,36 +1370,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3424">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_7.png" />
     <entry file="file://$PROJECT_DIR$/src/js/swiper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,119 +1390,194 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/bStyle.png">
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/bStyle.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/unitstyle.png">
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/unitstyle.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/separates.png">
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/firstPreface.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/firstPreface.png">
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/firstCell.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/firstCell.png">
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/title.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/title.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_2.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_3.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_1.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_2.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_3.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/img/1_1_1_4.png" />
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/try.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pandectPage/tryCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/pandectCtrl.js">
+    <entry file="file://$PROJECT_DIR$/src/angular/angular-router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="90">
+          <caret line="6" column="377" lean-forward="false" selection-start-line="6" selection-start-column="370" selection-end-line="6" selection-end-column="377" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular-ui-router/release/angular-ui-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/angular/angular-ui-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_1_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_1_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_2_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_7_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_7_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_6_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1_1_6_7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/4/4_1_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/4/4_1_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/4/4_1_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/4/4_1_5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="143" column="37" lean-forward="false" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/angular-bootstrap/ui-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/separates.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/next.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pandectPage/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="191">
+          <caret line="4706" column="35" lean-forward="false" selection-start-line="4706" selection-start-column="35" selection-end-line="4706" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandectPage/try.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="63" column="78" lean-forward="false" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/2/1/1_2_1_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pandectPage/pandect.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="271">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1227,6 +1593,38 @@
             <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/pandectCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/images/closebtn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandectPage/contentInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

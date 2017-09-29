@@ -121,7 +121,7 @@
     <div id="navlist">
         <ul>
             <li>
-                <div class="listitem">
+                <div class="listitem" link="/pandectPage/pandect.html?part=1">
                     <div class="listword">
                         <img src="image/nav/no1.png" />
                     </div>
@@ -131,7 +131,7 @@
                 </div>
             </li>
             <li>
-                <div class="listitem">
+                <div class="listitem" link="/pandectPage/pandect.html?part=2">
                     <div class="listword">
                         <img src="image/nav/no2.png" />
                     </div>
@@ -151,7 +151,7 @@
                 </div>
             </li>
             <li>
-                <div class="listitem">
+                <div class="listitem" link="/pandectPage/pandect.html?part=4">
                     <div class="listword">
                         <img src="image/nav/no4.png"  />
                     </div>
@@ -169,17 +169,30 @@
 </body>
 <script>
     $(document).ready(function(){
-        $("#enterbtn").click(function(){
+        var location=window.location.href;
+        if(location.indexOf("#sec")>0){
+            gonext();
+        }
+
+        function gonext(){
             $(".container1440").slideUp(800);
             $(".navpage").fadeIn(1000,function(){
                 $("#backbtn").show();
             });
-        });
-        $("#backbtn").click(function(){
+        }
+
+        function goback(){
             $("#backbtn").hide();
             $(".navpage").fadeOut(800);
             $(".container1440").slideDown(1000);
+        }
 
+        $("#enterbtn").click(function(){
+            gonext();
+        });
+        $("#backbtn").click(function(){
+
+            goback();
         });
 
         $("#navlist li").hover(function(){
@@ -189,6 +202,14 @@
             var icon=$(this).find(".listicon");
             icon.css("transform","rotateY(0)")
         })
+
+        $("#navlist .listitem").click(function(){
+            var link=$(this).attr("link");
+            if(link!=null&&link.length>0){
+                window.location.href=link;
+            }
+
+        });
     });
 </script>
 </html>

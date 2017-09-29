@@ -6,25 +6,28 @@
     <link rel="stylesheet" href="../angular-bootstrap/ui-bootstrap-csp.css"/>
     <link rel="stylesheet" href="../css/swiper.css"/>
     <link rel="stylesheet" href="../css/swiper.min.css"/>
+    <script src="../jquery/jquery.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script type="text/javascript" src="../js/swiper.js"></script>
     <script type="text/javascript" src="../js/swiper.min.js"></script>
     <script type="text/javascript" src="../angular/angular.js"></script>
+    <script type="text/javascript" src="../angular/angular-ui-router.js"></script>
     <script type="text/javascript" src="pandectCtrl.js"></script>
     <script type="text/javascript" src="../angular-bootstrap/ui-bootstrap.js"></script>
     <script type="text/javascript" src="../angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <title>纸之源流</title>
+
 </head>
 <style>
 
     body{background: #ffffff;}
     /*标题css*/
-    .firstTop{  background: url("img/title.png") no-repeat ;  z-index: -1;  }
+    .firstTop{  background: url("images/title.png") no-repeat ;}
     .firstTop p{text-align: center;margin-top:200px;}
 
     /*前言*/
     .firstPreface{
-        background: url("img/firstPreface.png") no-repeat center;
+        background: url("images/firstPreface.png") no-repeat center;
     }
     .firstPrefaceContent{
         margin-top: 140px;
@@ -38,7 +41,7 @@
     }
     /*单元*/
     .content{
-        background: url("img/unitstyle.png") no-repeat center;
+        background: url("images/unitstyle.png") no-repeat center;
         background-position-y: 74px;
     }
     .unitContent p {text-align: center;font-size: 200%;}
@@ -103,13 +106,11 @@
     }
 </style>
 <body ng-controller="pandectCtrl">
-    <div class="container" style="border: 1px solid red;width: 1440px;" ng-repeat="paper in paperList track by $index">
+    <div class="container" style="width: 1440px;" ng-repeat="paper in paperList track by $index">
         <div class="row">
             <!--标题-->
-            <div class="col-lg-12 col-md-12 firstTop">
-                <a href="#" >
-                    <img src="img/back.png" />
-                </a>
+            <div class="col-lg-12 col-md-12 firstTop" >
+                    <a href="/index/index.html#sec"><img src="images/back.png"/></a>
                 <p>
                     <img ng-src="{{paper.pageImage}}"/>
                 </p>
@@ -135,37 +136,37 @@
                     </div>
                 </div>
                 <!--单元具体内容-->
-                <div style="margin-top: 200px;" style="position: relative;">
-                    <div ng-repeat="content in unit.contents" style="border: 1px solid #ffffff;background:url('img/yun2.png') no-repeat;background-position-y:40px;">
+                <div style="margin-top: 20px;" style="position: relative;">
+                    <div ng-repeat="content in unit.contents" style="border: 1px solid #ffffff;background:url('images/yun2.png') no-repeat;background-position-y:40px;">
                         <div class="contentDetail" style="border: 4px solid #71593a;">
                             <div class="contentdesc" style="border:2px solid #71593a;">
                                 <!--单元具体内容介绍-->
                                 <div class="media">
                                     <div class="media-left" style="padding: 0;">
-                                        <img class="media-object" src="img/1_1_1.png" >
+                                        <img class="media-object" src={{"images/02/"+(partNumber)+"/"+(partNumber)+"_"+($parent.$index+1)+"_"+($index+1)+".png"}} >
                                         <!--<p style="text-align: center;">{{content.contentName}}</p>-->
                                     </div>
                                     <div class="media-body">
                                         <p style="text-indent: 2em; font-size: 170%;line-height: 1.8;margin-top: 25px;">{{content.contentMemo}}</p>
                                     </div>
                                 </div>
-                                <img src="img/separates.png" style="width: 100%;"/>
+                                <img src="images/separates.png" style="width: 100%;"/>
                                 <!--swiper-->
                                 <div>
                                     <div class="swiper-container">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide" ng-repeat="s in slides">
-                                                <img src="{{s.image}}"/>
+                                            <div class="swiper-slide" ng-repeat="s in content.infos" ng-click="modalOpen(s)">
+                                                <img src="images{{s.infoCover.split('-').join('_')}}"/>
                                             </div>
                                         </div>
                                         <!-- Add Pagination -->
                                         <div class="swiper-pagination" ></div>
                                     </div>
                                     <!-- Add Arrows -->
-                                    <img class="swiper-button-next next" src="img/next.png"/>
-                                    <img src="img/zu.png" style="position: absolute;margin-top: -283px;margin-left: 316px;"/>
-                                    <img src="img/zu.png" style="position: absolute;margin-top: -283px;margin-left: 597px;"/>
-                                    <img src="img/zu.png" style="position: absolute;margin-top: -283px;margin-left: 878px;"/>
+                                    <img ng-if="content.infos.length>4" class="swiper-button-next next" src="images/next.png"/>
+                                    <img ng-if="content.infos.length>1" src="images/zu.png" style="position: absolute;margin-top: -283px;margin-left: 316px;"/>
+                                    <img ng-if="content.infos.length>2" src="images/zu.png" style="position: absolute;margin-top: -283px;margin-left: 597px;"/>
+                                    <img ng-if="content.infos.length>3" src="images/zu.png" style="position: absolute;margin-top: -283px;margin-left: 878px;"/>
                                 </div>
                             </div>
                         </div>
