@@ -55,12 +55,19 @@
         console.log("info",info);
 
         $scope.info=info;
-        if(info.infoTitle.indexOf("0-")>=0){
-            $scope.info.infoTitle=info.infoTitle.substring(2);
-            $scope.direction=0
+        if(info.direction!=null){
+            $scope.direction=info.direction;
         }else{
-            $scope.direction=1
+            if(info.infoTitle.indexOf("0-")>=0){
+                $scope.info.infoTitle=info.infoTitle.substring(2);
+                $scope.direction=0
+                info.direction=0;
+            }else{
+                info.direction=1;
+                $scope.direction=1
+            }
         }
+
         $scope.textarr=info.infoText.split("$$");
 
 
