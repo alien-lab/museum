@@ -12,8 +12,15 @@
     <script type="text/javascript" src="tryCtrl.js"></script>
 </head>
 <style>
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
     .swiper-container {
-        width: 500px;
         height: 300px;
         margin: 20px auto;
     }
@@ -22,7 +29,6 @@
         font-size: 18px;
         background: #fff;
 
-        border:1px solid red;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -39,93 +45,41 @@
     }
 </style>
 <body ng-controller="pandectCtrl">
-<div style="border: 1px solid red;padding: 50px;">
-
-    <!-- Swiper -->
-    <div style="border: 3px solid blue;width: 1000px;">
-    <div class="swiper-container" style="border:2px solid black;">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" ng-repeat="s in slides">
-                <img ng-src="{{s.image}}"/>
-            </div>
-
+<!-- Swiper -->
+<div class="swiper-container" style="border: 1px solid red;width:1000px;height: 500px;">
+    <div class="swiper-container" style="border: 1px solid darkviolet;width: 900px;">
+        <div class="swiper-wrapper" style="border: 3px solid black;width:500px;height: 90%;margin: 30px;">
+            <div class="swiper-slide" style="background: #e5e5e5;width: 300px;">Slide 1</div>
+            <div class="swiper-slide" style="background: #ff8d26;width: 300px;">Slide 2</div>
+            <div class="swiper-slide" style="width: 300px;border: 2px solid blue;">Slide 3</div>
+            <div class="swiper-slide" style="width: 300px;border: 2px solid blue;">Slide 4</div>
+            <div class="swiper-slide" style="width: 300px;border: 2px solid blue;">Slide 5</div>
+            <div class="swiper-slide" style="width: 300px;border: 2px solid blue;">Slide 6</div>
+            <div class="swiper-slide" style="width:300px;border: 2px solid blue;">Slide 7</div>
+            <div class="swiper-slide" style="width: 300px;border: 2px solid blue;">Slide 8</div>
+            <div class="swiper-slide" style="width: 300px;border: 2px solid blue;">Slide 9</div>
+            <div class="swiper-slide" style="width:300px;border: 2px solid blue;">Slide 10</div>
         </div>
+
         <!-- Add Pagination -->
-        <div class="swiper-pagination" style="border:2px solid teal;"></div>
-    </div>
-    </div>
+        <div class="swiper-pagination"></div>
 
-    <div style="border: 3px solid blue;width: 1000px;">
-    <div class="swiper-container" style="border:2px solid black;">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" ng-repeat="s in slides">
-                <img ng-src="{{s.image}}"/>
-            </div>
-
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination" style="border:2px solid teal;"></div>
-    </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
 
-    <div style="border: 3px solid blue;width: 1000px;">
-    <div class="swiper-container" style="border:2px solid black;">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" ng-repeat="s in slides">
-                <img ng-src="{{s.image}}"/>
-            </div>
+    <!-- Swiper JS -->
+    <script src="../dist/js/swiper.min.js"></script>
 
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination" style="border:2px solid teal;"></div>
-    </div>
-    </div>
-
-
-    <div ng-repeat="data in dataList" style="border:1px solid red;width: 1300px;height: 500px;margin-top: 50px;">
-        <div>
-            <p>{{data.id}}</p>
-        </div>
-        <!-- Swiper -->
-        <div class="swiper-container" style="border:2px solid black;">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" ng-repeat="s in slides">
-                    <img ng-src="{{s.image}}"/>
-                </div>
-
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination" style="border:2px solid teal;"></div>
-        </div>
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                autoplay:2500,
-                loop:true,
-                autoplayDisableOnInteraction:false,
-                pagination : '.swiper-pagination',
-                paginationClickable: true,
-                longSwipesRatio: 0.3,
-                touchRatio:1,
-                observer:true,//修改swiper自己或子元素时，自动初始化swiper
-                observeParents:true//修改swiper的父元素时，自动初始化swiper
-            });
-        </script>
-    </div>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev'
+        });
+    </script>
 </div>
-
-
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        autoplay:2500,
-        loop:true,
-        autoplayDisableOnInteraction:false,
-        pagination : '.swiper-pagination',
-        paginationClickable: true,
-        longSwipesRatio: 0.3,
-        touchRatio:1,
-        observer:true,//修改swiper自己或子元素时，自动初始化swiper
-        observeParents:true//修改swiper的父元素时，自动初始化swiper
-    });
-</script>
 </body>
 </html>

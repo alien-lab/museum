@@ -23,6 +23,12 @@ app.controller("pandectCtrl",["$scope",function ($scope) {
 
     $scope.dataList = [{
         id:1
+    },{
+        id:2
+    },{
+        id:3
+    },{
+        id:4
     }]
 
 }]);
